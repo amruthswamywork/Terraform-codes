@@ -2,7 +2,7 @@ provider "aws" {
 region ="ap-south-2"
 }
 resource "aws_vpc" "my_vpc" {
-cidr_block = " "
+cidr_block = "0.0.0.0/0"
 tags = {
 Name = "my_vpc1"
 }
